@@ -1,7 +1,7 @@
 # ThingsBoard IoT Lab
 ### Getting started
 Follow the steps on this page https://thingsboard.io/docs/getting-started-guides/helloworld/ to get started with a free thingsboard account. (We will be using the Live Demo server for our purposes)
-There is also instructions on how to set up a device. We are going to pretend that we are using a temperature sensor and we are going to mock
+There is also instructions on how to set up a device. In this lab, we will be mocking an in-home thermometer.
 
 ### Provision a Device, and Setup an Alarm
 * Go through steps 1 through 5 on the 'Getting Started With Thingsboard' page linked above.

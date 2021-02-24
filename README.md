@@ -11,7 +11,7 @@ There is also instructions on how to set up a device. In this lab, we will be mo
 ### Run python script and verify chart and alarm
 * The other file in this repo, `temperatureScript.py` is a python script that will mock temperature data being sent from a thermometer in your home to your thingsboard dashboard.
 * The script will need to be udpated with your device's access token in order to properly integrate with your thingsboard dashboard
-* To complete this badge, run this script (either locally or on the online compiler linked below) and screenshot a flow chart of the temperature over time as well as the alarm widget after the script has finished.
+* To complete this badge, run this script (either locally or on the online compiler linked below) and screenshot a flow chart of the temperature over time as well as the alarm widget after the script has finished. There is an example of said screenshot in this repo called example_dashboard.png (The important widgets are the time series flot and the alarm)
 
 #### running the script
 * Locally, if you have python3: `python3 temperatureScript.py`

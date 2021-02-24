@@ -4,7 +4,7 @@ Follow the steps on this page https://thingsboard.io/docs/getting-started-guides
 There is also instructions on how to set up a device. In this lab, we will be mocking an in-home thermometer.
 
 ### Provision a Device, and Setup an Alarm
-* Go through steps 1 through 5 on the 'Getting Started With Thingsboard' page linked above.
+* Go through steps 1 through 5 on the 'Getting Started With Thingsboard' page linked above and use the Live Demo option! (won't need to use docker).
 * In theme with the brutal cold temperatures across our offices, we will be mocking a temperature sensor in a home, so the alarm we make will need to test for low temperatures (45 degrees F).
 * Since using a 3rd party sms service will cost money, we will not be moving past step 5
 
@@ -17,3 +17,15 @@ There is also instructions on how to set up a device. In this lab, we will be mo
 * Locally, if you have python3: `python3 temperatureScript.py`
 
 * Online python compiler/runner: https://www.programiz.com/python-programming/online-compiler/
+
+* Alternatively, execute the following commands to run a bash script version:
+```
+chmod u+x temperatureScript.sh
+export ACCESS_TOKEN=your_token_value
+./temperatureScript.sh
+```
+
+You can override default temperatures using -t as follows:
+```
+./temperatureScript.sh -t 100 -t 90 -t 30.1
+```
